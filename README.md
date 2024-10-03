@@ -29,3 +29,16 @@ git add . Como insertar comentario aca
 
 ```sh
 git commit -m "Mesaje descriptivo"
+```
+
+# Cambiar el editor por nano
+
+```sh
+git config --global core.editor nano
+git config --global core.editor "code --wait"
+```
+
+```sh
+git log # versión larga
+git log --online # versión corta
+```
