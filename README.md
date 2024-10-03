@@ -50,6 +50,15 @@ git remote add origin <url-al-repo-remoto>
 git remote add origin https://...
 ```
 
+# Para ver si se agrego el repo remoto
+
 ```sh
 git remote -v
+```
+
+# Subo al remoto el repositorio local
+
+```sh
+git push -u origin main # La primera vez
+git push
 ```
